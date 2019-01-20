@@ -26,7 +26,7 @@ app.use(morgan('combined'))
 app.use(bodyParser.json())
 app.use(cors())
 
-// Routing here
+// Routing here, export to file
 // Pokemon
 	// Get all pokemon
 	app.get('/pokemon', (req, res) => {
